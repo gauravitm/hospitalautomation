@@ -1,0 +1,122 @@
+
+<html>
+<head>
+<title>::HMS::</title>
+<link rel="icon" href="images/favicon.ico"> 
+
+<style>
+#outer
+{
+height:1200px;
+width:1000px;
+margin:0px auto;
+//border:1px solid white;
+}
+#menu
+{
+height:50px;
+width:1000px;
+background-color:white;
+border:1px solid white;
+border-radius:20px 20px 0px 0px;
+}
+#menu ul
+{
+list-style-type:none;
+}
+#menu ul li
+{
+display:inline;
+padding:10px;
+}
+#menu ul li a
+{
+color:black;
+text-decoration:none;
+}
+#menu ul li a:hover
+{
+color:green;
+text-decoration:underline;
+}
+
+
+
+
+
+
+
+#banner
+{
+height:250px;
+width:1000px;
+margin-top:5px;
+background-image:url('image\banner.jpg');
+}
+#lside
+{
+height:600px;
+width:600px;
+border-radius:0px 0px 0px 20px;
+float:left;
+background-color:white;
+}
+#rside
+{
+height:600px;
+width:250px;
+float:right;
+border-radius:0px 0px 20px 0px;
+background-color:lightgrey;
+}
+#parent
+{
+height:600px;
+width:1000px;
+margin-top:5px;
+}
+#footer
+{
+height:260px;
+width:1000px;
+background-color:white;
+margin-top:10px;
+border-radius:20px;
+}
+</style>
+</head>
+<body bgcolor="#07aafb">
+<div id="outer">
+    <div id="menu">
+	    <ul>
+		   <li><a href="index.php">HOME</a></li>
+		   <li><a href="register.php">REGISTER</a></li>
+		   <li><a href="login.php">LOGIN</a></li>
+		   <li><a href="show.php">SHOW ALL</a></li>
+		   <li><a href="calc.php">CALCULATOR</a></li>
+		   
+		</ul>
+	</div>
+	<div id="banner">
+	<img src="image\banner.jpg" width="1000px" height="250px">
+	</div>
+	<div id="parent">
+	  <div id="lside">
+	  <img src="image\lside.png" width="750px" height="600px">
+	  </div>
+	  <div id="rside">
+	  <marquee><h3>:: ADVERTISEMENT::</h3></marquee>
+	  <img src="image\dep.jpg" width="250px" height="270px"></br>
+	  
+	  <img src="image\cons.png" width="250px" height="270px"></br>
+	  </div>
+	</div>
+	<div id="footer">
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
